@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>HostGrids - Hosting & Domain Services HTML Template.</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/tiny-slider.css" />
+    <link rel="stylesheet" href="/css/glightbox.min.css" />
+    <link rel="stylesheet" href="/css/main.css" /> 
+
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img id="logo1" src="/logo/SWU_College_Social_Communication_Innovation_EN_White.png" >
+                            </a>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="/view"  >Home</a>
+                                    </li>
+                                  
+                                        <li class="nav-item">
+                                            <a href="/view/admission">Admission</a>
+                                        </li>
+                                
+                                    <li class="nav-item">
+                                        <a href="/view/academic">Academic</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/view/gallery" class="active" >Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/view/contact">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <% if (isLoggedIn) { %>
+                                <div class="button">
+                                    <a href="/api/auth/logout" class="btn">Log out</a>
+                                </div>
+                                <% } else { %>
+                                    <div class="button">
+                                        <a href="/view/login" class="btn">Log in</a>
+                                    </div>
+                                <% } %>
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Hero Area -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+             
+                   
+    
+                       <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/logo/pic1.png" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="/logo/pic2.png" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="/logo/pic3.png" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+                     
+             
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+    <!-- Start Domain Search -->
+   
+    <!-- End Pricing Style 2 Area -->
+
+    <!-- Start Call Action Area -->
+    <section class="call-action">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <div class="text">
+                            <h2>Live & Learn
+                                <br> <span>Epxplore Our Activities.</span>
+                            </h2>
+                            <p style="display: block;margin-top: 10px;">ภาพรวมกิจกรรมต่างๆของนิสิตในคณะ </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12">
+                        <div class="button">
+                            <a href="http://cosci.swu.ac.th/awards" class="btn">See more details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call Action Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer section">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container-fluid bg-dark p-5 ">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col">
+                            <!-- Single Widget -->
+                            <div class="single-footer f-about">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img id="logo2" src="/logo/SWU_College_Social_Communication_Innovation_EN_White.png" alt="#">
+                                    </a>
+                                </div>
+                                <p>Our Philosophy "Education is Growth"
+                                </p>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/cosciswunews/"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/cosciswu/"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://www.youtube.com/cosciswu"><i class="bi bi-youtube"></i></a></li>
+                                    <li><a href="https://twitter.com/cosciswu/"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                                <p class="copyright-text">© 2022 Cosci<br>
+                                    Designed and Developed by <a href="https://www.facebook.com/pim.yukohjung/"
+                                        target="_blank">Yadar</a></p>
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+                        <div class="col">
+                            <!-- Single Widget -->
+                            <div class="single-footer f-link">
+                                <h3>Pages</h3>
+                                <ul>
+                                    <li class="nav-item">
+                                        <a href="/view" class="active" >Home</a>
+                                    </li>
+                                  
+                                        <li class="nav-item">
+                                            <a href="/view/admission" >Admission</a>
+                                        </li>
+                                
+                                    <li class="nav-item">
+                                        <a href="/view/academic" >Academic</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/view/gallery">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/view/contact">Contact us</a>
+                                    </li>
+                                </ul>
+                             
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+
+                      
+                       
+                            <!-- End Single Widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+    </footer>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/glightbox.min.js"></script>
+    <script src="/js/count-up.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
